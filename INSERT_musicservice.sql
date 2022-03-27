@@ -51,44 +51,44 @@ insert into genre (genre)
 insert into genre (genre)
 	values ('Ёлектронна€ музыка');
 
-insert into genre_artist (genre_id, artist_id)
+insert into "genre/artist" (genre_id, artist_id)
 	values (1, 2);
-insert into genre_artist (genre_id, artist_id)
+insert into "genre/artist" (genre_id, artist_id)
 	values (1, 8);
-insert into genre_artist (genre_id, artist_id)
+insert into "genre/artist" (genre_id, artist_id)
 	values (2, 1);
-insert into genre_artist (genre_id, artist_id)
+insert into "genre/artist" (genre_id, artist_id)
 	values (2, 3);
-insert into genre_artist (genre_id, artist_id)
+insert into "genre/artist" (genre_id, artist_id)
 	values (5, 4);
-insert into genre_artist (genre_id, artist_id)
+insert into "genre/artist" (genre_id, artist_id)
 	values (4, 5);
-insert into genre_artist (genre_id, artist_id)
+insert into "genre/artist" (genre_id, artist_id)
 	values (3, 6);
-insert into genre_artist (genre_id, artist_id)
+insert into "genre/artist" (genre_id, artist_id)
 	values (3, 7);
 
-insert into artist_album (artist_id, album_id)
+insert into "artist/album" (artist_id, album_id)
 	values (5, 1);
-insert into artist_album (artist_id, album_id)
+insert into "artist/album" (artist_id, album_id)
 	values (7, 2);
-insert into artist_album (artist_id, album_id)
+insert into "artist/album" (artist_id, album_id)
 	values (6, 3);
-insert into artist_album (artist_id, album_id)
+insert into "artist/album" (artist_id, album_id)
 	values (2, 4);
-insert into artist_album (artist_id, album_id)
+insert into "artist/album" (artist_id, album_id)
 	values (8, 5);
-insert into artist_album (artist_id, album_id)
+insert into "artist/album" (artist_id, album_id)
 	values (4, 6);
-insert into artist_album (artist_id, album_id)
+insert into "artist/album" (artist_id, album_id)
 	values (3, 7);
-insert into artist_album (artist_id, album_id)
+insert into "artist/album" (artist_id, album_id)
 	values (2, 8);
-insert into artist_album (artist_id, album_id)
+insert into "artist/album" (artist_id, album_id)
 	values (1, 9);
-insert into artist_album (artist_id, album_id)
+insert into "artist/album" (artist_id, album_id)
 	values (1, 10);
-insert into artist_album (artist_id, album_id)
+insert into "artist/album" (artist_id, album_id)
 	values (2, 11);
 
 insert into track (track_title, track_duration, album_id)
@@ -159,25 +159,25 @@ insert into collection (collection_title, release_year)
 insert into collection (collection_title, release_year)
 	values ('—борник 2021', 2021);
 	
-insert into collection_track (collection_id, track_id)
+insert into "collection/track" (collection_id, track_id)
 	values (1, 24);
-insert into collection_track (collection_id, track_id)
+insert into "collection/track" (collection_id, track_id)
 	values (2, 5);
-insert into collection_track (collection_id, track_id)
+insert into "collection/track" (collection_id, track_id)
 	values (3, 9);
-insert into collection_track (collection_id, track_id)
+insert into "collection/track" (collection_id, track_id)
 	values (4, 24);
-insert into collection_track (collection_id, track_id)
+insert into "collection/track" (collection_id, track_id)
 	values (4, 16);
-insert into collection_track (collection_id, track_id)
+insert into "collection/track" (collection_id, track_id)
 	values (5, 25);
-insert into collection_track (collection_id, track_id)
+insert into "collection/track" (collection_id, track_id)
 	values (6, 13);
-insert into collection_track (collection_id, track_id)
+insert into "collection/track" (collection_id, track_id)
 	values (6, 24);
-insert into collection_track (collection_id, track_id)
+insert into "collection/track" (collection_id, track_id)
 	values (7, 23);
-insert into collection_track (collection_id, track_id)
+insert into "collection/track" (collection_id, track_id)
 	values (7, 6);
-insert into collection_track (collection_id, track_id)
+insert into "collection/track" (collection_id, track_id)
 	values (8, 9);
